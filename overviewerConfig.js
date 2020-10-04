@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "mWorld - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1601722466",
+        "cacheTag": "1601794062",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,15 +41,15 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Render Swiata",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "world-lighting",
+            "path": "CustomRender",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
-            "last_rendertime": 1601722105,
+            "world": "mWorld - overworld",
+            "last_rendertime": 1601772121,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
